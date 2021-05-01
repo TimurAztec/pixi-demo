@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Pixi</title>
+</head>
+<body>
+    <main>
+        <div class="demo-wrapper">
+            <div class="row">
+                <span class="display-text">Number of current shapes: <span id="current-shapes"></span></span>
+                <span class="display-text">Surface area occupied by shapes: px<sup>2</sup> <span id="current-shapes-occupied"></span></span>
+            </div>
+            <div class="row" id="screen-wrapper">
+
+            </div>
+            <div class="row">
+                <span>
+                    <button class="button left-button" id="decrease-shapes">-</button>
+                    <button class="button right-button" id="increase-shapes">+</button>
+                    <span class="display-text">Number of shapes per sec: <span id="shapes-per-sec"></span></span>
+                </span>
+                <span>
+                    <button class="button left-button" id="decrease-gravity">-</button>
+                    <button class="button right-button" id="increase-gravity">+</button>
+                    <span class="display-text">Gravity value: <span id="gravity"></span></span>
+                </span>
+            </div>
+        </div>
+    </main>
+    <script src="index.ts"></script>
+</body>
+</html>

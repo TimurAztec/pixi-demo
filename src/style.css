@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.display-text {
+    padding: 12px;
+    margin: 0px 12px 0px 12px;
+}
+
+.row {
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    border: 1px solid black;
+    font-size: 3em;
+    width: 50px;
+    color: blue;
+    cursor: pointer;
+}
+
+.left-button {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.right-button {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+

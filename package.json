@@ -1,0 +1,21 @@
+{
+  "name": "Pixi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^5.3.8"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.2",
+    "postcss": "^8.2.13",
+    "typescript": "^4.2.4"
+  }
+}
